@@ -1,0 +1,17 @@
+{
+    "root": [
+        "../src/index.ts",
+        "../src/config/config.ts",
+        "../src/config/database.ts",
+        "../src/middleware/upload.ts",
+        "../src/middleware/verifytoken.ts",
+        "../src/controller/auth_controller.ts",
+        "../src/model/auth_model.ts",
+        "../src/model/category_model.ts",
+        "../src/model/subcategory_model.ts",
+        "../src/model/topic_model.ts",
+        "../src/routes/auth_routes.ts",
+        "../src/types/express/index.d.ts"
+    ],
+    "version": "5.6.2"
+}

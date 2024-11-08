@@ -1,0 +1,21 @@
+{
+  "compilerOptions": { 
+    "module": "NodeNext",  
+    "moduleResolution": "NodeNext", 
+    "target": "ES2020", 
+    "sourceMap": true,  
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "outDir": "./dist", 
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
+    "strict": true,   
+    "typeRoots": ["./node_modules/@types", "./@types"],
+    "paths": {
+      "*": ["*"] 
+    }
+    },
+  "include": ["types/**/*.d.ts", "src/**/*.ts"]
+
+}
